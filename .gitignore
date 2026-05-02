@@ -1,0 +1,17 @@
+# Cache / logs
+*.log
+*.cache
+*.bak
+
+# System junk
+.DS_Store
+Thumbs.db
+
+# Sensitive / useless
+pulse/
+mozilla/
+spotify/
+Typora/
+
+# Temporary files
+*.tmp
