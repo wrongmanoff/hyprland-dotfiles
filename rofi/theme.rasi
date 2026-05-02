@@ -1,0 +1,86 @@
+* {
+    bg: #050a07ee;
+    bg-alt: #081510ee;
+    fg: #8fffaa;
+    accent: #00ff88;
+    border-col: #00cc66;
+}
+
+/* WINDOW */
+window {
+    width: 50%;
+    location: center;
+    anchor: center;
+
+    background-color: @bg;
+    border: 2px;
+    border-color: @border-col;
+    border-radius: 16px;
+    padding: 16px;
+}
+
+/* REMOVE WHITE EVERYWHERE */
+mainbox, listview {
+    background-color: transparent;
+}
+
+/* INPUT BAR */
+inputbar {
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+/* 🔥 FIX APPS TEXT + SEARCH TEXT BACKGROUND */
+entry  {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+
+
+textbox {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+
+prompt {
+    enabled: false;
+}
+
+/* LIST */
+listview {
+    margin: 0px;
+    spacing: 8px;
+    lines: 12;
+}
+
+/* 🔥 FORCE ALL ELEMENT STATES */
+element normal.normal,
+element normal.active,
+element alternate.normal,
+element alternate.active {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+/* 🔥 SELECTED ITEM */
+element selected {
+    background-color: #00ff8822;
+    border: 1px;
+    border-color: @accent;
+    text-color: @accent;
+}
+
+/* 🔥 ICON BACKGROUND FIX */
+element-icon {
+    size: 22px;
+    background-color: transparent;
+}
+
+/* TEXT INSIDE ELEMENT */
+element-text {
+    background-color: transparent;
+    text-color: @fg;
+}

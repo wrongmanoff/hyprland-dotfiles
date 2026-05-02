@@ -1,0 +1,52 @@
+# GLOBAL
+sort=-time
+layer=overlay
+background-color=#050a07ee
+width=320
+height=110
+border-size=1
+border-color=#3ddc84
+border-radius=14
+icons=1
+max-icon-size=20
+markup=1
+actions=1
+font=JetBrainsMono Nerd Font 11
+format=<b>%s</b>\n%b
+default-timeout=5000
+ignore-timeout=0
+max-visible=5
+output=
+
+# PADDING & MARGIN
+outer-margin=10
+margin=6
+padding=12
+
+# URGENCY — LOW (subtle, dimmed)
+[urgency=low]
+background-color=#050a07cc
+border-color=#2aaa66
+text-color=#7ecfa0
+default-timeout=3000
+
+# URGENCY — NORMAL (default)
+[urgency=normal]
+background-color=#050a07ee
+border-color=#3ddc84
+text-color=#a8e6bc
+default-timeout=5000
+
+# URGENCY — CRITICAL (red, stays until dismissed)
+[urgency=critical]
+background-color=#1a0505ee
+border-color=#ff6e6e
+text-color=#ff6e6e
+default-timeout=0
+
+# PROGRESS BAR (for volume/brightness notifications)
+[category=progress]
+background-color=#050a07ee
+border-color=#3ddc84
+text-color=#a8e6bc
+default-timeout=2000
