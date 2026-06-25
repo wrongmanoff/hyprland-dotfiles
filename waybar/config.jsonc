@@ -84,7 +84,7 @@
     "format-ethernet": "󰈀 Connected",
     "format-disconnected": "󰌙 Off",
     "tooltip-format": "{essid} — {ifname} — {ipaddr}",
-    "on-click": "nm-connection-editor",
+    "on-click": "networkmanager_dmenu",
   },
 
   "pulseaudio": {
